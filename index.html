@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="style.css" />
 
-    <link rel="stylesheet" href="desktop.css" />
+    <link rel="stylesheet" href="input.css" />
   </head>
   <body>
     <main class="hero-container">
@@ -16,17 +16,28 @@
         <header>
           <nav class="nav-container">
             <div class="logo">
-              <img src="./assets/icon/kotak2.png" />
+              <img src="./assets/icon/kotak2.png" alt="DibiTech Logo" />
               <a href="#">DibiTech</a>
             </div>
-            <div class="nav-list">
-              <ul>
-                <li><a href="#">Explore</a></li>
-                <li><a href="#">Categories</a></li>
-                <li><a href="#">Chart</a></li>
-              </ul>
+            <div class="nav-right">
+              <div class="nav-list">
+                <ul>
+                  <li class="nav-list-item"><a href="#">Explore</a></li>
+                  <li class="nav-list-item"><a href="#">Categories</a></li>
+                  <li class="nav-list-item"><a href="#">Cart</a></li>
+                </ul>
+              </div>
+
+              <div class="btn-navbar">
+                <button
+                  class="btn-lms"
+                  onclick="window.location.href = 'DibiEdu.html'"
+                >
+                  Go to LMS
+                </button>
+                <div><button class="btn-login">LOGIN</button></div>
+              </div>
             </div>
-            <div><button class="btn-login">LOGIN</button></div>
           </nav>
         </header>
       </section>

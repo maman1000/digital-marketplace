@@ -1,0 +1,71 @@
+@import "tailwindcss";
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --primary-color: #e58411;
+  --text-color: #bbb;
+}
+
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+
+  --color-primary: var(--primary-color);
+  --color-secondary: #f7f7f7;
+}
+
+@layer components {
+  .advantages-detail {
+    @apply flex flex-col gap-4 mb-10;
+  }
+
+  .more-info {
+    @apply flex gap-3 text-primary;
+  }
+
+  .product-item {
+    @apply relative shadow-md rounded-4xl bg-white transition-transform ease-in duration-300 hover:scale-110;
+  }
+
+  .product-img {
+    @apply h-120 w-120 bg-[#fafafa] rounded-4xl md:h-45 md:w-65;
+  }
+
+  .img-absolute {
+    @apply absolute -top-20 md:w-55 md:left-[50%] md:translate-x-[-50%];
+  }
+
+  .product-description {
+    @apply my-6 flex flex-col gap-2 px-6 pb-6;
+  }
+
+  .product-rating {
+    @apply flex gap-1;
+  }
+
+  .product-checkout {
+    @apply flex justify-between items-center px-6 pb-6;
+  }
+
+  .product-checkout button {
+    @apply w-12 h-12 rounded-full text-3xl bg-[#0d1b39] text-white outline-0 border-0;
+  }
+
+  .footer-items {
+    @apply flex flex-col gap-3;
+  }
+
+  .social-media {
+    @apply flex gap-3 items-center;
+  }
+
+  .social-media img {
+    @apply w-4 h-4;
+  }
+}
+
+@layer base {
+  body {
+    @apply font-poppins;
+  }
+}

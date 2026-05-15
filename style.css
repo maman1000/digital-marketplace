@@ -51,10 +51,15 @@ body {
   padding: 12px 24px;
   position: relative;
   z-index: 1;
+  color: white;
 }
 
 .nav-list {
   display: none;
+}
+
+.nav-list-item a {
+  color: white;
 }
 
 .nav-cart {
@@ -68,6 +73,21 @@ body {
   border-radius: 16px;
   border: none;
   color: white;
+}
+
+.btn-lms {
+  width: 84px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 16px;
+  border: none;
+  color: white;
+}
+
+.btn-navbar {
+  display: flex;
+  gap: 10px; /* jarak antar tombol */
+  align-items: center;
 }
 
 .btn-learn {
@@ -120,13 +140,13 @@ body {
 }
 
 .categories-list {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 24px;
-  flex-wrap: wrap;
 }
 
 .category-card {
-  width: 220px;
+  width: 100%;
 }
 
 .category-image {
@@ -172,9 +192,10 @@ body {
 }
 
 .featured-product-card {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
   align-items: center;
-  gap: 16px;
 }
 
 .featured-product-card > div {
@@ -228,33 +249,6 @@ body {
 
 .right {
   text-align: right;
-}
-
-.more-info {
-  display: flex;
-  gap: 16px;
-}
-
-.more-info-right {
-  display: flex;
-  justify-content: end;
-  gap: 16px;
-  color: var(--primary-color);
-}
-
-.more-info p {
-  color: var(--primary-color);
-}
-
-.flex-row {
-  display: flex;
-  gap: 12px;
-  align-self: center;
-  margin-top: 32px;
-}
-
-.flex-row p {
-  color: var(--primary-color);
 }
 
 #trending {
@@ -342,6 +336,13 @@ body {
 
     min-height: 100vh;
   }
+
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
   .nav-list {
     display: block;
   }
@@ -385,10 +386,6 @@ body {
     text-align: center;
   }
 
-  .more-info-right {
-    justify-content: start;
-  }
-
   .right {
     text-align: left;
   }
@@ -397,24 +394,30 @@ body {
     display: block;
   }
 
+  .categories-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 420px));
+    justify-content: left;
+    gap: 24px;
+  }
+
+  .category-card {
+    width: 100%;
+  }
+
+  .featured-product-card {
+    grid-template-columns: 1fr;
+  }
+
   #footer {
     padding: 24px 120px;
   }
 
-  /* .footer-links {
+  .footer-links {
     grid-template-columns: repeat(4, auto);
     justify-content: space-between;
     gap: 40px;
-  } */
-
-  .footer-links {
-    width: 100%;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 28px 40px;
-
-    text-align: center;
+    white-space: nowrap; /* Mencegah teks membungkus ke baris baru */
   }
 
   .footer-content {
