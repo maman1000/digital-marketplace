@@ -20,12 +20,17 @@ body {
   font-family: "Gilroy", "Poppins", sans-serif;
 }
 
-.hero-container {
+/* .hero-container {
   background-image: url("./assets/images/background3.png");
   height: 800px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  padding: 24px 12px;
+  position: relative;
+} */
+
+.hero-container {
   padding: 24px 12px;
   position: relative;
 }
@@ -35,7 +40,9 @@ body {
   position: absolute;
   inset: 0;
 
-  background: rgba(0, 0, 0, 0.55);
+  /* background: rgba(0, 0, 0, 0.55); */
+  background-color: #0b1023;
+  z-index: -1;
 }
 
 .logo a {
@@ -101,13 +108,26 @@ body {
 
 /* Hero section */
 
-#hero {
+/* #hero {
   margin-top: 60px;
   color: white;
   position: relative;
-  /* height: 100%; */
   min-height: 80vh;
   z-index: 1;
+} */
+
+#hero {
+  background-image: url("./assets/images/background3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* min-height: 700px; */
+  height: 512px;
+
+  position: relative;
+  color: white;
+  background-color: #0b1023;
 }
 
 .content {
@@ -127,10 +147,16 @@ body {
   gap: 20px;
 }
 
+#categories,
+#featured-product,
+#trending {
+  padding: 48px 12px;
+}
+
 #categories {
   /* background-color: #070b1d; */
   background-color: #0b1023;
-  padding: 48px 24px;
+  z-index: 10;
 }
 
 .categories-title {
@@ -187,7 +213,6 @@ body {
 #featured-product {
   /* background-color: #070b1d; */
   background-color: #0b1023;
-  padding: 48px 24px;
   position: relative;
 }
 
@@ -253,7 +278,6 @@ body {
 
 #trending {
   background-color: #0b1023;
-  padding: 48px 24px;
 }
 
 .trending-image {
@@ -334,7 +358,15 @@ body {
   .hero-container {
     padding: 40px 120px;
 
-    min-height: 100vh;
+    /* min-height: 100vh; */
+    min-height: 512px;
+  }
+
+  #categories,
+  #featured-product,
+  #trending {
+    padding-left: 120px;
+    padding-right: 120px;
   }
 
   .nav-right {
