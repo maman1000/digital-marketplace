@@ -41,6 +41,8 @@ DibiTech adalah platform marketplace digital yang mengkurasi berbagai alat berte
 
 Hak cipta © 2026 DibiTech. Proyek ini dibuat untuk keperluan portofolio dan pembelajaran.
 
+## 🖼 Tampilan (Screenshot)
+
 ## 👤 Kontak & Portofolio
 
 - **Nama** : Maman Darusman
