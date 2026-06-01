@@ -48,5 +48,4 @@ Hak cipta © 2026 DibiTech. Proyek ini dibuat untuk keperluan portofolio dan pem
 
 - **Nama** : Maman Darusman
 - **Email** : [mamandarusman.st@gmail.com] 
-- **Website** : [www.dibitech.com]
 
