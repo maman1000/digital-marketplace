@@ -25,24 +25,8 @@ DibiTech adalah platform marketplace digital yang mengkurasi berbagai alat berte
 ## 🚀 Cara Menjalankan Proyek
 
 1. **Clone atau unduh** repositori ini ke komputer Anda.
-2. Pastikan struktur folder sebagai berikut:
-   project-folder/
-├── index.html (file utama)
-├── style.css
-├── input.css
-├── assets/
-│ ├── icon/
-│ │ ├── kotak2.png
-│ │ ├── productivity.png
-│ │ ├── marketing.png
-│ │ ├── twitter.svg
-│ │ ├── instagram.svg
-│ │ └── facebook.svg
-│ └── images/
-│ ├── featured-product.png
-
-3. Buka file `index.html` menggunakan browser web modern (Chrome, Firefox, Edge).
-4. Tidak diperlukan server web khusus karena ini halaman statis.
+2. Buka file `index.html` menggunakan browser web modern (Chrome, Firefox, Edge).
+3. Tidak diperlukan server web khusus karena ini halaman statis.
 
 ## 📂 Struktur Halaman
 
