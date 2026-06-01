@@ -42,6 +42,7 @@ DibiTech adalah platform marketplace digital yang mengkurasi berbagai alat berte
 Hak cipta © 2026 DibiTech. Proyek ini dibuat untuk keperluan portofolio dan pembelajaran.
 
 ## 🖼 Tampilan (Screenshot)
+![Tampilan halaman utama DibiTech LMS](./assets/images/screenshot.png)
 
 ## 👤 Kontak & Portofolio
 
@@ -49,8 +50,3 @@ Hak cipta © 2026 DibiTech. Proyek ini dibuat untuk keperluan portofolio dan pem
 - **Email** : [mamandarusman.st@gmail.com] 
 - **Website** : [www.dibitech.com]
 
----
-
-│ ├── ai-writing-assistant.png
-│ └── ai-image-generator.png
-└── DibiEdu.html (halaman LMS, opsional)
